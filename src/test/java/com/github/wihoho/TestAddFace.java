@@ -1,17 +1,18 @@
 package com.github.wihoho;
 
-import com.github.wihoho.constant.FeatureType;
-import com.github.wihoho.jama.Matrix;
-import com.github.wihoho.training.CosineDissimilarity;
-import com.github.wihoho.training.FileManager;
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+import com.github.wihoho.constant.FeatureType;
+import com.github.wihoho.jama.Matrix;
+import com.github.wihoho.training.CosineDissimilarity;
+import com.github.wihoho.training.FileManager;
 
 /**
  * Created by wihoho on 5/3/17.

@@ -1,13 +1,20 @@
 package com.github.wihoho;
 
-import com.github.wihoho.constant.FeatureType;
-import com.github.wihoho.jama.Matrix;
-import com.github.wihoho.training.*;
-import com.google.common.base.Preconditions;
-import lombok.experimental.Builder;
-
 import java.util.ArrayList;
 import java.util.Objects;
+
+import com.github.wihoho.constant.FeatureType;
+import com.github.wihoho.jama.Matrix;
+import com.github.wihoho.training.FeatureExtraction;
+import com.github.wihoho.training.KNN;
+import com.github.wihoho.training.LDA;
+import com.github.wihoho.training.LPP;
+import com.github.wihoho.training.Metric;
+import com.github.wihoho.training.PCA;
+import com.github.wihoho.training.ProjectedTrainingMatrix;
+import com.google.common.base.Preconditions;
+
+import lombok.Builder;
 
 @Builder
 public class Trainer {
